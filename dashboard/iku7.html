@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <title>IKU 7 — Keterlibatan SDGs — Dashboard IKU Unsri</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://unsri.ac.id/.safeline/static/favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head><body data-page="iku7">
+<aside id="sidebar" class="sidebar"></aside>
+<div class="main-wrap" id="mainWrap">
+  <header class="top-header" id="topHeader"></header>
+  <main class="content">
+    <div class="iku-header">
+      <div class="iku-badge">IKU 7</div>
+      <div>
+        <h2 class="iku-title">IKU 7</h2>
+        <p class="iku-desc">Jumlah dan distribusi program penelitian, pengabdian, dan kerjasama yang selaras dengan 17 Tujuan Pembangunan Berkelanjutan.</p>
+      </div>
+    </div>
+    <div class="stats-row" id="stats-row"></div>
+    <div class="chart-grid cols-1">
+      <div class="chart-card">
+        <h3 class="chart-title">Program per SDG (Penelitian, Pengabdian, Kerjasama)</h3>
+        <div class="chart-wrap chart-wrap--tall"><canvas id="chart-a"></canvas></div>
+      </div>
+      
+      
+    </div>
+  </main>
+</div><script src="js/data.js"></script>
+<script src="js/data-api.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
